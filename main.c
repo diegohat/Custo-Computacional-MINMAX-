@@ -7,8 +7,8 @@ int main(void)
     int mi, ma;
 
     Imprimir(data);
-
-    MinMaxInicial(data, &mi, &ma);
+    MinMaxTeste1(data, &mi, &ma);
+    //MinMaxInicial(data, &mi, &ma);
 
     printf("\nMAX: %i\nMIN: %i\n", mi, ma); // custo 1
 

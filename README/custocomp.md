@@ -9,12 +9,15 @@ Através da analise realizada e comentada linha a linha no programa, será feita
 
 Após analise, será comentado abaixo as descobertas realizadas.
 
-### Custo de um FOR
+### Custo de MinMaxInicial
 
+O custo de MinMaxInicial é igual a 2(n-1) onde n é o tamanho do vetor.
 
+Esse custo é considerado para todos os casos.
 
-### Custo de um IF
+### Custo de MinMaxTeste1
 
-
-
-### Custo de uma ATRIBUIÇÃO
+O custo de MinMaxTeste1 é igual a:
+- 2(n-1) para o pior caso quando todas as condições sao checadas;
+- (n-1) para quando o vetor está em ordem crescente;
+- 3n/2 para o caso médio quando data[i] é maior que mi a metade das vezes.
