@@ -4,7 +4,6 @@
 
 void MinMaxInicial(int *data, int *mi, int *ma);
 void MinMaxTeste1();
-void MinMaxTeste2();
 void Imprimir(int *data);
 
 
